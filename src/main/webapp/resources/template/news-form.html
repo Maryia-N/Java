@@ -1,0 +1,24 @@
+<ul class="view-all">
+    <li>
+        <form id= "save-news-form" method="POST" action="javascript:void(null);" class="create-news">
+        	<input type="hidden" name="newsId" id="newsId" value =""/>  
+            <div>
+                <p data-i18n="content.txtTitle"></p>  
+                <textarea name="title" id="title" class="title" data-i18n="[placeholder]content.phTitle" rows="3" maxlength="30" required data-i18n="[title]content.required_message"></textarea>
+            </div>
+            <div>
+                <p data-i18n="content.txtShortText"></p>         
+                <textarea name="shortText" id="shortText" class="shortText" data-i18n="[placeholder]content.phShortText" rows="6" maxlength="100" required data-i18n="[title]content.required_message"></textarea>        
+            </div>
+            <div>          
+                <p data-i18n="content.txtFullText"></p>    
+                <textarea name="fullText" id="fullText" class="fullText" data-i18n="[placeholder]content.phFullText" rows="15" maxlength="2000" required data-i18n="[title]content.required_message"></textarea>     
+            </div>     
+            <div class="news-options"> 
+                <input class="btn-default" type="submit" data-i18n="[value]content.btnSave"/>      
+                <input class="btn-default" id="cancel-save-news" type="button" data-i18n="[value]content.btnCancel"/>
+            </div>
+        </form> 
+    </li>
+</ul>
+

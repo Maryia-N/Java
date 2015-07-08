@@ -1,0 +1,242 @@
+body {
+	padding: 10px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header {
+	position: absolute;
+	width: 80%;
+	padding: 10px;
+	background-color: white;
+	border: 2px solid black;
+}
+
+.header  .left-text {
+	float: left;
+}
+
+.header .right-text {
+	text-align: right;
+}
+
+.content {
+	position: absolute;
+	width: 80%;
+	top: 70px;
+	bottom: 90px;
+}
+
+.content .menu {
+	position: absolute;
+	width: 20%;
+	height: 95%;
+	padding: 10px;
+	background-color: white;
+	border: 2px solid black;
+	overflow: auto;
+}
+
+.content .common {
+	height: 95%;
+	width: 80%;
+	overflow: auto;
+	margin: 0% 0% 0% 23%;
+}
+
+.footer {
+	position: absolute;
+	width: 80%;
+	padding: 10px;
+	bottom: 0;
+	background-color: white;
+	border: 2px solid black;
+}
+
+.footer .text {
+	padding: 15px;
+	text-align: center;
+}
+
+ul.view-all {
+	list-style: none;
+}
+
+.view-all li {
+	border: 2px solid black;
+	padding: 10px;
+}
+
+.view-all li span {
+	font-size: 16pt;
+}
+
+.view-all li .title, .shortText, .fullText {
+	padding: 10px;
+}
+
+.view-all li .modificationDate {
+	float: right;
+	margin-top: 0;
+	font-size: 10pt;
+}
+
+.view-all li .menu-right {
+	text-align: right;
+}
+
+.view-all li .tag-text {
+	padding: 5px;
+	font-style: italic;
+}
+
+form#add-comment-form {
+	margin: 10px 0px 10px 15px;
+}
+
+textarea.new-comment-text {
+	width: 95%;
+	padding: 10px;
+}
+
+form.create-news .news-options {
+	text-align: right;
+	padding: 10px;
+}
+
+form.create-news textarea {
+	width: 80%;
+	margin: 0% 0% 0% 10%;
+}
+
+form.create-news  .title {
+	height: 78px;
+}
+
+.create-news  .shortText {
+	height: 110px;
+}
+
+.create-news  .fullText {
+	height: 200px;
+}
+
+.view-all li .error {
+	padding: 10px;
+	color: #D8000C;
+	background-color: #FFBABA;
+}
+
+.link-view {
+	background: none;
+	border: none;
+	padding: 5px;
+	font-family: arial;
+	color: #069;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.link-view .new-line {
+	display: block;
+}
+
+.btn-default {
+	padding: 10px;
+	display: inline-block;
+	font-size: 1em;
+	background: none;
+	color: #009900;
+	border: 1px solid #e6e6e6;
+	border-radius: 0.25em;
+}
+
+.btn-default:hover {
+	color: #14396A;
+	background: #F0E8FF;
+}
+
+.single-news-comment-block {
+	padding: 15px;
+	color: #009900;
+}
+
+.single-news-comment-block .comment-text {
+	padding: 10px;
+}
+
+.right-side {
+	text-align: right;
+}
+
+form#add-tag-form, form#add-author-form {
+	margin: 15px 0px 0px 0px;
+}
+
+input.text-tag, input.text-author {
+	padding: 10px;
+	width: 90%;
+}
+
+.cd-pagination {
+	position: absolute;
+	width: 70%;
+	text-align: center;
+	bottom: 0;
+	margin: 0% 0% 0% 0%;
+	color: #009900;
+}
+
+.cd-pagination div {
+	display: none;
+	margin: 0 .5em;
+}
+
+input.previous-btn:disabled, input.next-btn:disabled {
+	cursor: default;
+	pointer-events: none;
+	color: #c0c0c0;
+	background-color: #ffffff;
+}
+
+.accordion, .accordion * {
+	box-sizing: border-box;
+}
+
+.accordion {
+	overflow: hidden;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+	border-radius: 3px;
+}
+
+.accordion-section-title, input.pagination-button {
+	width: 100%;
+	padding: 5px;
+	display: inline-block;
+	font-size: 1em;
+	color: #009900;
+	background: none;
+	border: 1px solid #e6e6e6;
+	border-radius: 0.25em;
+}
+
+.accordion-section-title.active, .accordion-section-title:hover, input.pagination-button:hover,
+	.btn-default:hover /*, input.add-tag:hover, input.add-author:hover*/ {
+	background-color: #C7C7C7;
+	text-decoration: none;
+}
+
+.accordion-section:last-child .accordion-section-title {
+	border-bottom: none;
+}
+
+.accordion-section-content {
+	padding: 15px;
+	display: none;
+}
+
+@media only screen and (min-width: 768px) {
+	.cd-pagination div {
+		display: inline-block;
+	}
+}

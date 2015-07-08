@@ -1,0 +1,68 @@
+{
+    "header": {
+        "langRu": "RU",
+        "langEn": "EN",
+        "btnBack": "Back"
+    },
+    "content": {
+        "btnAddView": "Add News",
+        "btnListView": "List News",
+        "btnDelete": "Delete News",
+        "btnEditView": "Edit News",
+        "btnNewsView": "View",
+        "btnSave": "Save",
+        "btnCancel": "Cancel",
+        "phFullText": "Enter full text of news",
+        "phShortText": "Enter short text of news",
+        "phTitle": "Enter the title of news",
+        "txtFullText": "Full description:",
+        "txtShortText": "Short description:",
+        "txtTitle": "Title:",
+        "txtUrl": "URL",
+        "txtMethod": "Method:",
+        "txtMessage": "Message:",
+        "warning": "Are you sure to follow this link? Form data was changed but not saved!",
+        
+        "txtTags": "Tags",
+        "txtAuthors": "Authors",
+        "txtComments": "Comments",
+        "txtComment": "Add comment",
+        "deleteComment":"Delete comment",
+        "nextPage": "Next Page",
+        "previousPage": "Previous Page",
+        "askDeleteComment": "Are your sure to delete this comment?",
+        "askDeleteNews":"Are your sure to delete this news?",
+        
+        "viewComments": "View Comments",
+        "addNew": "new...",
+        "addNewAuthor": "Enter author",
+        "addNewTag": "Enter tag",
+        
+        "top_5": "top 5",
+        "top_20": "top 20",
+        "top_100": "top 100",
+        
+        "required_message": "The field must not be empty!",
+        
+        "no_valid_comment_message": "The comment couldn't be empty!",
+        "no_valid_title_message": "The title couldn't be empty!",
+        "no_valid_short_text_message": "The short text couldn't be empty!",
+        "no_valid_full_text_message": "The full text couldn't be empty!",
+        "no_valid_tag_message": "The tag could't be empty",
+        "no_valid_author_message":"The author could't be empty",
+        "tag_violation_equivalence": "Such tag already exists. Check the data or update tags list!",
+        
+        "not_allowed": "Method not allowed. [405]",
+        "bad_request": "Bad request. [400]",
+        "not_found": "Requested page not found. [404]",
+        "conflict": "Request could not be processed because of conflict in the request [409]",
+        "unprocessable_entity": "The request was well-formed but was unable to be followed due to semantic errors. [422]",
+        "server_error": "Internal Server Error [500].",
+        "service_unavailable": "Service Unavailable. [503]",
+        "json_parse_failed": "Requested JSON parse failed.",
+        "timeout_exception":"Time out error.",
+        "abort_exception": "Ajax request aborted.",
+        "another_error":"Error! Try again later!"          
+       
+    }
+}
